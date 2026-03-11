@@ -1,7 +1,7 @@
 [project]
 name = "vrml"
 version = "0.1.0"
-description = "Add your description here"
+description = "VRML Project"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
