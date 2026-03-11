@@ -1,3 +1,3 @@
-# Flag
+# Emoji
 ## Output
 ![output](output.png)
