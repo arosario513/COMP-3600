@@ -1,4 +1,4 @@
-﻿namespace algo;
+﻿namespace emoji;
 
 partial class Form1
 {

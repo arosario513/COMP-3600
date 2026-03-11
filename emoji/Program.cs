@@ -1,4 +1,4 @@
-namespace algo;
+namespace emoji;
 
 static class Program
 {
