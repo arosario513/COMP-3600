@@ -1,0 +1,294 @@
+#VRML V2.0 utf8
+
+# Tree 1
+Transform {
+    translation 5 0 0
+    children [
+
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape{
+                        geometry Sphere {
+                        radius 3.0
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Tree 2
+
+Transform {
+    translation 9 0 7
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape {
+                    geometry Cone {
+                        height 7
+                        bottomRadius 3
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+
+        }
+    ]
+}
+
+# Tree 3
+Transform {
+    translation -25 0 -20
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape {
+                    geometry Cone {
+                        height 7
+                        bottomRadius 3
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Tree 4
+Transform {
+    translation 25 0 -25
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape {
+                    geometry Cone {
+                        height 7
+                        bottomRadius 3
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Tree 5
+Transform {
+    translation -30 0 5
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape {
+                    geometry Cone {
+                        height 7
+                        bottomRadius 3
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Tree 6
+Transform {
+    translation 30 0 15
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape {
+                    geometry Cone {
+                        height 7
+                        bottomRadius 3
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Tree 7
+Transform {
+    translation -20 0 30
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape {
+                    geometry Cone {
+                        height 7
+                        bottomRadius 3
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Tree 8
+Transform {
+    translation 20 0 -15
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+        Transform {
+            translation 0 4 0
+            children [
+                Shape {
+                    geometry Cone {
+                        height 7
+                        bottomRadius 3
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "textures/grass.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Log
+Transform {
+    translation 14 -1 9
+    rotation 0 0 1 1.57
+    children [
+        Shape {
+            geometry Cylinder {
+                radius 1.0
+                height 5.0
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/trunk.webp"
+                }
+            }
+        }
+    ]
+}

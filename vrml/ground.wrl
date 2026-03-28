@@ -1,0 +1,17 @@
+#VRML V2.0 utf8
+
+DEF box Transform {
+    translation 0 -3 0
+    children [
+        Shape {
+            geometry Box {
+                size 70 2 70
+            }
+            appearance Appearance {
+                texture ImageTexture {
+                    url "textures/grass.jpg"
+                }
+                    }
+        }
+    ]
+}
